@@ -6,8 +6,8 @@
 // import Footer from './components/Footer'
 // import AdminLogin from './components/Admin-Dash/AdminLogin'
 // import PaintingsHome from "./components/Admin-Dash/PaintingsHome"
-
-import PaintingsAdd from "./components/Admin-Dash/PaintingsAdd"
+// import PaintingsEdit from "./components/Admin-Dash/PaintingsEdit"
+// import PaintingsAdd from "./components/Admin-Dash/PaintingsAdd"
 
 
 const App = () => {
@@ -21,7 +21,8 @@ const App = () => {
       <Footer/> */}
       {/* <AdminLogin/> */}
       {/* <PaintingsHome/> */}
-      <PaintingsAdd/>
+      {/* <PaintingsAdd/> */}
+      {/* <PaintingsEdit/> */}
     </div>
   )
 }
