@@ -8,6 +8,7 @@
 // import PaintingsHome from "./components/Admin-Dash/PaintingsHome"
 // import PaintingsEdit from "./components/Admin-Dash/PaintingsEdit"
 // import PaintingsAdd from "./components/Admin-Dash/PaintingsAdd"
+// import Home from "./components/Admin-Dash/Home"
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
       {/* <PaintingsHome/> */}
       {/* <PaintingsAdd/> */}
       {/* <PaintingsEdit/> */}
+      {/* <Home/> */}
     </div>
   )
 }
