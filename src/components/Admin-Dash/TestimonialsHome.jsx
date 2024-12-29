@@ -2,7 +2,6 @@
     import { FaEdit, FaTrashAlt } from "react-icons/fa";
 
     const TestimonialsHome = () => {
-    // Static data for testimonials
     const testimonialsData = [
         {
         id: 1,
@@ -39,12 +38,9 @@
 
     return (
         <div className="flex">
-        {/* Sidebar */}
         <Sidebar />
 
-        {/* Main Content */}
         <div className="flex-1 bg-gray-100 p-6 md:p-10 overflow-y-auto h-screen">
-            {/* Title */}
             <h1 className="text-2xl md:text-4xl font-bold mb-6 text-[#222E2F]">
             Manage Testimonials
             </h1>

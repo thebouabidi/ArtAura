@@ -5,10 +5,7 @@
         <div className="flex">
         {/* Sidebar */}
         <Sidebar />
-
-        {/* Main Content */}
         <div className="flex-1 bg-gray-100 p-6 md:p-10 overflow-y-auto h-screen">
-            {/* Title */}
             <h1 className="text-2xl md:text-4xl font-bold mb-6 text-[#222E2F]">
             Add Testimonial
             </h1>
@@ -16,7 +13,6 @@
             {/* Form */}
             <div className="bg-white p-6 rounded-lg shadow-md">
             <form>
-                {/* Name Field */}
                 <div className="mb-4">
                 <label
                     htmlFor="name"
@@ -47,8 +43,6 @@
                     rows="4"
                 ></textarea>
                 </div>
-
-                {/* Photo Upload Field */}
                 <div className="mb-4">
                 <label
                     htmlFor="photo"
@@ -63,11 +57,11 @@
                 />
                 </div>
 
-                {/* Submit Button */}
                 <div className="flex justify-end">
                 <button
                     type="submit"
-                    className="bg-[#D12943] text-white px-6 py-2 rounded-lg shadow hover:bg-[#b81f39] transition"
+                    className="bg-[#D12943] text-white px-6 py-2 rounded-lg 
+                    shadow hover:bg-[#b81f39] transition"
                 >
                     Add Testimonial
                 </button>

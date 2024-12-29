@@ -10,8 +10,9 @@
 // import PaintingsAdd from "./components/Admin-Dash/PaintingsAdd"
 // import Home from "./components/Admin-Dash/Home"
 // import TestimonialsAdd from "./components/Admin-Dash/TestimonialsAdd"
+// import TestimonialsHome from "./components/Admin-Dash/TestimonialsHome"
 
-import TestimonialsHome from "./components/Admin-Dash/TestimonialsHome"
+import TestimonialsEdit from "./components/Admin-Dash/TestimonialsEdit"
 
 
 const App = () => {
@@ -29,7 +30,8 @@ const App = () => {
       {/* <PaintingsEdit/> */}
       {/* <Home/> */}
       {/* <TestimonialsAdd/> */}
-      <TestimonialsHome/>
+      {/* <TestimonialsHome/> */}
+      <TestimonialsEdit/>
 
     </div>
   )
