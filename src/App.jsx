@@ -10,6 +10,8 @@
 // import PaintingsAdd from "./components/Admin-Dash/PaintingsAdd"
 // import Home from "./components/Admin-Dash/Home"
 
+import TestimonialsAdd from "./components/Admin-Dash/TestimonialsAdd"
+
 
 const App = () => {
   return (
@@ -25,6 +27,7 @@ const App = () => {
       {/* <PaintingsAdd/> */}
       {/* <PaintingsEdit/> */}
       {/* <Home/> */}
+      <TestimonialsAdd/>
     </div>
   )
 }
