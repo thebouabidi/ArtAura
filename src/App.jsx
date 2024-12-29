@@ -5,7 +5,9 @@
 // import Contact from './components/Contact'
 // import Footer from './components/Footer'
 // import AdminLogin from './components/Admin-Dash/AdminLogin'
-import Sidebar from './components/Admin-Dash/Sidebar'
+// import PaintingsHome from "./components/Admin-Dash/PaintingsHome"
+
+import PaintingsAdd from "./components/Admin-Dash/PaintingsAdd"
 
 
 const App = () => {
@@ -18,9 +20,8 @@ const App = () => {
       <Contact/>
       <Footer/> */}
       {/* <AdminLogin/> */}
-      <Sidebar/>
- 
-     
+      {/* <PaintingsHome/> */}
+      <PaintingsAdd/>
     </div>
   )
 }
