@@ -9,8 +9,9 @@
 // import PaintingsEdit from "./components/Admin-Dash/PaintingsEdit"
 // import PaintingsAdd from "./components/Admin-Dash/PaintingsAdd"
 // import Home from "./components/Admin-Dash/Home"
+// import TestimonialsAdd from "./components/Admin-Dash/TestimonialsAdd"
 
-import TestimonialsAdd from "./components/Admin-Dash/TestimonialsAdd"
+import TestimonialsHome from "./components/Admin-Dash/TestimonialsHome"
 
 
 const App = () => {
@@ -27,7 +28,9 @@ const App = () => {
       {/* <PaintingsAdd/> */}
       {/* <PaintingsEdit/> */}
       {/* <Home/> */}
-      <TestimonialsAdd/>
+      {/* <TestimonialsAdd/> */}
+      <TestimonialsHome/>
+
     </div>
   )
 }
