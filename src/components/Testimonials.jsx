@@ -1,9 +1,8 @@
-    import React from 'react'
 import { assets, testimonialsData } from '../assets/assets'
 
     const Testimonials = () => {
     return (
-        <div className='container mx-auto py-10 lg:px-32 w-full overflow-hidden'
+        <div className='container mx-auto py-10 lg:px-32 w-full overflow-hidden mb-16'
         id='Testimonials'>
             <h1 className='text-2xl sm:text-4xl font-bold mb-8 text-center text-[#222E2F] '>What Our Clients Say</h1>
             <p className='text-center text-[#405558] mb-12 max-w mx-auto'>Discover how Art Aura has inspired and delighted art 

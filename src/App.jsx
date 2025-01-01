@@ -9,6 +9,7 @@ import TestimonialsAdd from "./components/Admin-Dash/TestimonialsAdd";
 import TestimonialsEdit from "./components/Admin-Dash/TestimonialsEdit";
 import TestimonialsHome from './components/Admin-Dash/TestimonialsHome';
 import LandingPage from "./components/LandingPage";
+import Contact from "./components/Contact";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<LandingPage/>}/>
+          <Route path='/Contact' element={<Contact/>}/>
           <Route path='/admin' element={<AdminLogin/>}/>
           <Route path='/Home' element={<Home/>}/>
           <Route path='/PaintingsHome' element={<PaintingsHome/>}/>
