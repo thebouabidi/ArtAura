@@ -33,8 +33,6 @@ import { FaHome, FaPaintBrush, FaCommentDots, FaSignOutAlt } from "react-icons/f
             <span className="hidden md:block">Testimonials</span>
             </Link>
         </div>
-
-        {/* Logout Button */}
         <div className="mt-auto">
             <Link
             to="/admin"

@@ -41,13 +41,10 @@
                 photo: "https://via.placeholder.com/150",
                 },    
     ];
-
     return (
         <div className="flex flex-col md:flex-row h-screen">
         <Sidebar />
-
         <div className="flex-1 bg-gray-100 p-4 md:p-10 overflow-y-auto">
-            {/* Title */}
             <h1 className="text-2xl md:text-4xl font-bold mb-6 text-[#222E2F]">
             Admin Panel: Your Mission Awaits!
             </h1>
