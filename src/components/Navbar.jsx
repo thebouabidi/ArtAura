@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import {assets} from '../assets/assets'
+import {Link} from 'react-router-dom'
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false)
 
@@ -22,7 +23,9 @@ useEffect(()=>{
       <div className=' mx-auto flex justify-between 
       items-center py-4 px-6 md:px-10 lg:px-32 backdrop-blur-xl'>
         {/* <img src={assets.logo} alt="" /> */}
-        <h1 className='font-bold text-[#222E2F]'>Art Aura</h1>
+        <Link 
+        to="/" 
+        className='font-bold text-[#222E2F]'>Art Aura</Link>
         <ul className='hidden font-bold md:flex gap-7 text-[#222E2F]'>
           <a href="#Header" 
           className='cursor-pointer hover:text-[#D12943]'>Home</a>

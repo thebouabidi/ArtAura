@@ -1,3 +1,4 @@
+    import { Link } from "react-router";
     import Sidebar from "./Sidebar";
     import { useState } from "react";
 
@@ -28,11 +29,25 @@
             </h1>
 
             <div className="bg-white p-6 rounded-lg shadow">
-            <div className="flex mb-6 justify-center">
+            {/* <div className="flex mb-6 justify-center">
                 <img
                 src={testimonialData.photo}
                 alt={testimonialData.name}
                 className="w-32 h-32 rounded-full border-2 border-[#D12943]"
+                />
+            </div> */}
+
+            <div className="mb-4">
+                <label
+                    htmlFor="photo"
+                    className="block text-sm font-semibold text-[#222E2F]"
+                >
+                    Upload New Photo 
+                </label>
+                <input
+                    type="file"
+                    id="photo"
+                    className="w-full p-3 mt-2 border border-gray-300 rounded-md"
                 />
             </div>
 
@@ -72,14 +87,15 @@
                 </div>
 
                 <div className="flex justify-end">
-                <button
+                <Link
+                    to="/TestimonialsHome"
                     type="button"
                     onClick={handleSave}
                     className="bg-[#D12943] text-white py-2 px-6 rounded-lg shadow 
                     hover:bg-[#b81f39] transition"
                 >
                     Save Changes
-                </button>
+                </Link>
                 </div>
             </form>
             </div>

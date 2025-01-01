@@ -1,4 +1,4 @@
-  
+import {Link} from 'react-router-dom'
 
     const Footer = () => {
     return (
@@ -19,6 +19,7 @@
                         <a href="#Paintings" className='hover:text-[#222E2F] '>Paintings</a>
                         <a href="#Testimonials" className='hover:text-[#222E2F] '>Testimonials</a>
                         <a href="#Contact" className='hover:text-[#222E2F] '>Contact Us</a>
+                        <Link to ="/admin" className='hover:text-[#222E2F] '>Admin</Link>
                     </ul>
                 </div>
                 <div className='w-full md:w-1/3 mb-12 '>

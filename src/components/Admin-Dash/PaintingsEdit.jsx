@@ -1,4 +1,5 @@
     import Sidebar from "./Sidebar";
+    import {Link} from 'react-router-dom'
 
     const PaintingsEdit = () => {
     return (
@@ -79,12 +80,13 @@
 
             {/* Save Changes Button */}
             <div className="flex justify-end">
-                <button
+                <Link
+                to="/PaintingsHome"
                 type="submit"
                 className="bg-[#D12943] text-white px-6 py-2 rounded-lg shadow hover:bg-[#b81f39] transition"
                 >
                 Save Changes
-                </button>
+                </Link>
             </div>
             </form>
         </div>

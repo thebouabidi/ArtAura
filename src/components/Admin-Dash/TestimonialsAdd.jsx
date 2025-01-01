@@ -1,4 +1,5 @@
     import Sidebar from "./Sidebar";
+    import {Link} from 'react-router-dom'
 
     const TestimonialsAdd = () => {
     return (
@@ -58,13 +59,14 @@
                 </div>
 
                 <div className="flex justify-end">
-                <button
+                <Link
+                    to="/TestimonialsHome"
                     type="submit"
                     className="bg-[#D12943] text-white px-6 py-2 rounded-lg 
                     shadow hover:bg-[#b81f39] transition"
                 >
                     Add Testimonial
-                </button>
+                </Link>
                 </div>
             </form>
             </div>

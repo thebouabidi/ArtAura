@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom'
 import Navbar from "../Navbar";
 
 const AdminLogin = () => {
@@ -41,15 +41,11 @@ const AdminLogin = () => {
                         />
                     </div>
                 </div>
-                <button className='bg-[#222E2F] text-white py-2 px-12 mb-10 rounded'>
+                {/* <button className='bg-[#222E2F] text-white py-2 px-12 mb-10 rounded'>
                     Log in
-                </button>
+                </button> */}
+                <Link to ="/admin/Home" className='bg-[#222E2F] text-white py-2 px-12 mb-10 rounded'>Log in</Link>
             </form>
-            <div className='text-center'>
-                <a href='/forgot-password' className='text-[#222E2F] hover:underline'>
-                    Forgot Password?
-                </a>
-            </div>
         </div>
         
     );

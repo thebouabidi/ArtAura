@@ -1,4 +1,5 @@
     import Sidebar from "./Sidebar";
+    import {Link} from 'react-router-dom'
     import { FaEdit, FaTrashAlt } from "react-icons/fa";
 
     const PaintingsHome = () => {
@@ -52,10 +53,12 @@
             </h1>
 
             <div className="flex justify-end mb-4">
-            <button className="bg-[#D12943] text-white px-4 md:px-6 py-2 rounded-lg 
+            <Link 
+            to="/PaintingsAdd"
+            className="bg-[#D12943] text-white px-4 md:px-6 py-2 rounded-lg 
             shadow hover:bg-[#b81f39] transition">
-                Add Painting
-            </button>
+                Add New Painting
+            </Link>
             </div>
 
             <div className="overflow-x-auto">
@@ -86,9 +89,11 @@
                     <td className="py-3 px-4">{painting.price}</td>
                     <td className="py-3 px-4">{painting.description}</td>
                     <td className="py-3 px-4 flex justify-center gap-4">
-                        <button className="text-[#222E2F] hover:text-blue-700 transition">
+                        <Link 
+                        to="/PaintingsEdit"
+                        className="text-[#222E2F] hover:text-blue-700 transition">
                         <FaEdit />
-                        </button>
+                        </Link>
                         <button className="text-[#222E2F] hover:text-red-700 transition">
                         <FaTrashAlt />
                         </button>
