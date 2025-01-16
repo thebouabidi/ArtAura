@@ -13,21 +13,24 @@ import { FaHome, FaPaintBrush, FaCommentDots, FaSignOutAlt } from "react-icons/f
         <div className="flex flex-col space-y-6 flex-grow">
             <Link
             to="/Home"
-            className="flex items-center text-lg hover:text-[#222E2F] transition duration-300 space-x-3 p-2"
+            className="flex items-center text-lg hover:text-[#222E2F] 
+            transition duration-300 space-x-3 p-2"
             >
             <FaHome className="text-2xl" />
             <span className="hidden md:block">Home</span>
             </Link>
             <Link
             to="/PaintingsHome"
-            className="flex items-center text-lg hover:text-[#222E2F] transition duration-300 space-x-3 p-2"
+            className="flex items-center text-lg hover:text-[#222E2F] 
+            transition duration-300 space-x-3 p-2"
             >
             <FaPaintBrush className="text-2xl" />
             <span className="hidden md:block">Paintings</span>
             </Link>
             <Link
             to="/TestimonialsHome"
-            className="flex items-center text-lg hover:text-[#222E2F] transition duration-300 space-x-3 p-2"
+            className="flex items-center text-lg hover:text-[#222E2F] 
+            transition duration-300 space-x-3 p-2"
             >
             <FaCommentDots className="text-2xl" />
             <span className="hidden md:block">Testimonials</span>
@@ -35,9 +38,9 @@ import { FaHome, FaPaintBrush, FaCommentDots, FaSignOutAlt } from "react-icons/f
         </div>
         <div className="mt-auto">
             <Link
-            to="/admin"
-            onClick={() => alert("Logging out...")}
-            className="flex items-center text-lg  text-white py-2 px-4 rounded hover:text-[#222E2F] transition duration-300 space-x-2"
+            to="/logout"
+            className="flex items-center text-lg  text-white py-2 px-4 rounded 
+            hover:text-[#222E2F] transition duration-300 space-x-2"
             >
             <FaSignOutAlt className="text-2xl" />
             <span className="hidden md:block">Logout</span>

@@ -14,7 +14,7 @@ import { assets, testimonialsData } from '../assets/assets'
             <div className='flex flex-wrap justify-center gap-8'>
                 {testimonialsData.map((testimonial, index)=>(
                     <div key={index}
-                    className='max-w-[280px] border shadow-lg rounded
+                    className='max-w-[280px]  shadow-lg rounded hover:scale-105 transition-all cursor-zoom-in
                     px-8 py-8 text-center '>
                         <img className='w-20 h-20 rounded-full mx-auto mb-4 object-contain' src={testimonial.image} alt={testimonial.alt} />
                         <h2 className='text-xl text-[#222E2F] font-medium'>{testimonial.name}</h2>

@@ -85,7 +85,7 @@
                     <td className="py-3 px-4">{painting.title}</td>
                     <td className="py-3 px-4">{painting.price}</td>
                     <td className="py-3 px-4">{painting.description}</td>
-                    <td className="py-3 px-4 flex justify-center gap-4">
+                    <td className="py-8 px-4 flex justify-center gap-4">
                         <Link 
                         to="/PaintingsEdit"
                         className="text-[#222E2F] hover:text-blue-700 transition">

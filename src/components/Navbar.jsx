@@ -25,7 +25,7 @@ useEffect(()=>{
         {/* <img src={assets.logo} alt="" /> */}
         <Link 
         to="/" 
-        className='font-bold text-[#222E2F]'>Art Aura</Link>
+        className='font-bold text-2xl text-[#222E2F]'>Art Aura</Link>
         <ul className='hidden font-bold md:flex gap-7 text-[#222E2F]'>
           <a href="#Header" 
           className='cursor-pointer hover:text-[#D12943]'>Home</a>

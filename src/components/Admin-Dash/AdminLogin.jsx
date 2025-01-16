@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from "../Navbar";
-
 const AdminLogin = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -12,8 +11,10 @@ const AdminLogin = () => {
         e.preventDefault();
         setError("");
         
-        if (email === "artaura.admin@gmail.com" && password === "admin") {
-            alert("Login successful!");
+        if (email === "admin@email.com" && password === "admin") {
+            console.log("logged in")
+            const token ="abc"
+            localStorage.setItem("token",token)
             navigate("/Home");
         } else {
             setError("Invalid email or password.");
