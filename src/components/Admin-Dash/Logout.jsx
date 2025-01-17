@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useNavigate, Navigate } from 'react-router'
 
 function Logout() {

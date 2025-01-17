@@ -11,9 +11,9 @@ const AdminLogin = () => {
         e.preventDefault();
         setError("");
         
-        if (email === "admin@email.com" && password === "admin") {
+        if (email === "artaura.admin@gmail.com" && password === "admin") {
             console.log("logged in")
-            const token ="abc"
+            const token ="434536435"
             localStorage.setItem("token",token)
             navigate("/Home");
         } else {
