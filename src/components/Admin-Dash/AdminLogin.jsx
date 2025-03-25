@@ -13,7 +13,7 @@ const AdminLogin = () => {
         
         if (email === "artaura.admin@gmail.com" && password === "admin") {
             console.log("logged in")
-            const token ="434536435"
+            const token ="XaDZ@5yfL0"
             localStorage.setItem("token",token)
             navigate("/Home");
         } else {

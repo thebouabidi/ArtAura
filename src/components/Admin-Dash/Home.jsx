@@ -3,9 +3,7 @@
     const Home = () => {
     return (
         <div className="flex">
-
         <Sidebar />
-
         <div className="flex-1 bg-gray-100 p-6 md:p-10 overflow-y-auto h-screen">
             <div className="flex justify-center items-center h-full">
             <div className="text-center">
